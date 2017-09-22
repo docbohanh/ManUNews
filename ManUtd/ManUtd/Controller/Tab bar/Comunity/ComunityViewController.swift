@@ -58,7 +58,7 @@ extension ComunityViewController {
 extension ComunityViewController {
     func setupAllSubviews() {
         view.backgroundColor = UIColor.white
-        title = "Chém gió"
+        title = "Bình loạn"
     }
     
     func setupAllConstraints() {

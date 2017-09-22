@@ -170,51 +170,6 @@ struct Utility {
         navController.navigationBar.isTranslucent = false
     }
     
-    ///
-    func setupTabBarController() -> UITabBarController {
-        
-        let tabbarVC = UITabBarController()
-        
-        let naviNewsVC = UINavigationController(rootViewController: NewsViewController())
-        let naviComunityVC = UINavigationController(rootViewController: ComunityViewController())
-        let naviResultVC = UINavigationController(rootViewController: ResultViewController())
-        let naviScheduleVC = UINavigationController(rootViewController: ScheduleViewController())
-        let naviProfileVC = UINavigationController(rootViewController: ProfileViewController())
-        
-        let viewControllers = [naviNewsVC, naviResultVC, naviScheduleVC, naviComunityVC, naviProfileVC]
-        
-        viewControllers.forEach { Utility.shared.configureAppearance(navigation: $0) }
-        
-        UIApplication.shared.statusBarStyle = .lightContent
-        
-        tabbarVC.viewControllers = viewControllers
-        
-        tabbarVC.tabBar.barStyle = .default
-        tabbarVC.tabBar.backgroundColor = UIColor.Navi.main
-        tabbarVC.tabBar.barTintColor = UIColor.white.alpha(0.8)
-        tabbarVC.tabBar.isTranslucent = false
-        
-        let items: [(title: String, image: UIImage)] = [
-            ("Tin tức", Icon.TabBar.article),
-            ("Kết quả",  Icon.TabBar.noteBook),
-            ("Lịch thi đấu", Icon.TabBar.history),
-            ("Bình loạn",  Icon.TabBar.noteBook),
-            ("Cá nhân", Icon.TabBar.personal)
-        ]
-        
-        
-        for (i, item)  in tabbarVC.tabBar.items!.enumerated() {
-            item.selectedImage = items[i].image.tint(UIColor.main)
-            item.image = items[i].image.tint(UIColor.lightGray)
-            item.title = items[i].title
-                        
-            item.setTitleTextAttributes([
-                NSFontAttributeName: UIFont(name: FontType.latoSemibold.., size: FontSize.small--)!], for: .normal)
-            
-        }
-        
-        return tabbarVC
-    }
     
 
 }

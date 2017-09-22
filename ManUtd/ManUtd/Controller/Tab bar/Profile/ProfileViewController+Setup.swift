@@ -20,7 +20,7 @@ extension ProfileViewController {
         view.backgroundColor = UIColor.white
         title = "Cá nhân"
         
-        back = setupBarButtonItem(Icon.Navi.back, selector: #selector(self.back(_:)))
+//        back = setupBarButtonItem(Icon.Navi.back, selector: #selector(self.back(_:)))
         edit = setupBarButtonItem(Icon.Navi.edit, selector: #selector(self.edit(_:)))
         
         navigationItem.leftBarButtonItem = back

@@ -655,7 +655,7 @@
 				TargetAttributes = {
 					13DB29201E76350D00B5B786 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = AQ4F7PFFSM;
+						DevelopmentTeam = 82878KSCPR;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
@@ -887,7 +887,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = AQ4F7PFFSM;
+				DEVELOPMENT_TEAM = 82878KSCPR;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ManUtd/Libraries",
@@ -895,7 +895,7 @@
 				INFOPLIST_FILE = ManUtd/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.binhanh.testRx;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhla.ManUtd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ManUtd/ManUtd-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -909,7 +909,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = AQ4F7PFFSM;
+				DEVELOPMENT_TEAM = 82878KSCPR;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ManUtd/Libraries",
@@ -917,7 +917,7 @@
 				INFOPLIST_FILE = ManUtd/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.binhanh.testRx;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhla.ManUtd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ManUtd/ManUtd-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
